@@ -16,17 +16,15 @@ Follow these steps: [Manage Docker as a non-root user](https://docs.docker.com/e
 ## Clone
 To clone the repository
 ```sh
-git clone https://innersource.soprasteria.com/julian.wischnat/apisix-mule.git
+git clone xxx/xxx.git
 ```
-If the cloning of the repository should fail, this can be due to the following reasons:
-1. VPN connection to Sopra Steria network
 
 ## Download
 Alternatively, you can also download the zip file.
 ### Win10
 CMD:
 ```sh
-curl.exe -o apisix-mule-master.zip https://innersource.soprasteria.com/julian.wischnat/apisix-mule/-/archive/master/apisix-mule-master.zip
+curl.exe -o apisix-mule-master.zip https://xxx/-/archive/master/apisix-mule-master.zip
 ```
 Terminal(Ubuntu):
 ```sh
@@ -36,7 +34,7 @@ cp /mnt/c/Users/{windows_username}/{windows_path}/apisix-mule-master.zip .
 ### Ubuntu
 Terminal:
 ```sh
-wget https://innersource.soprasteria.com/julian.wischnat/apisix-mule/-/archive/master/apisix-mule-master.zip
+wget https://xxx/-/archive/master/apisix-mule-master.zip
 ```
 
 ### Unzip the zip file

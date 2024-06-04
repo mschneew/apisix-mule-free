@@ -1,0 +1,67 @@
+{
+	"info": {
+		"_postman_id": "8098a65d-2728-43cb-887e-a702c3a540ce",
+		"name": "APISIX_MULE",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30732919"
+	},
+	"item": [
+		{
+			"name": "Mule - Hello",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8081/test/hello",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8081",
+					"path": [
+						"test",
+						"hello"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "APISIX - Gateway - Mule - Hello",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {
+					"host": true
+				}
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Host",
+						"value": "mule",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://127.0.0.1:9080/test/hello",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "9080",
+					"path": [
+						"test",
+						"hello"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
